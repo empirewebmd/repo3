@@ -1,0 +1,64 @@
+        body {
+            background-image: url("img/space.jpg");
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+        
+        .row,
+        .row1 {
+            width: 100%;
+        }
+        
+        .row p {
+            text-align: center;
+            color: white;
+            font-size: 34px;
+            text-transform: capitalize;
+        }
+        
+        .row .bw {
+            font-size: 67px;
+            font-weight: bolder;
+            text-align: center;
+            font-family: sans-serif;
+            line-height: 20px;
+            letter-spacing: 10px;
+        }
+        
+        .row1 p {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            font-family: trebuchet Ms;
+            margin-top: 80px;
+        }
+        
+        .row2 {
+            width: 100%;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
+        
+        .email {
+            width: 38%;
+            background-color: transparent;
+            position: absolute;
+            left: 30%;
+            height: 4%;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+        
+        .submitbtn {
+            position: absolute;
+            right: 30%;
+            height: 4.8%;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+        
+        input[type=Email] {
+            color: white;
+        }
